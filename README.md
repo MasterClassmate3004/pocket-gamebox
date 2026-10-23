@@ -2,10 +2,12 @@ Pocket Gamebox
 
 A handheld gaming device that fits right into your pocket. For more professional experience, also includes a custom gamebox holder. 
 
-The first version of the code includes two different games (the brick and the snake game) and a home screen to select one of them. More games to follow in the future.
+The first version of the code includes two different games (the brick and the snake game) and a home screen to select one of them. More games to hopefully follow in the future.
 
 The pocket game box uses a 2.4inch LCD, 240x320. For it's microprocessor, it uses a Raspberry Pi Pico. It has 6 switches to control the gaming console. 
-Additionally for CAD, a bottom and top case were designed, while a gamebox holder was also later designed.
+Additionally for CAD, a bottom and top case were designed, while a gamebox holder was also later designed which I didn't think of earlier.
+
+I created this after seeing the Wrong Hack Club challenge and decided to design my own handheld gaming device. I really enjoy gaming and think this could be a good addition to my gaming closet. 
 
 <br><br><br>
 
