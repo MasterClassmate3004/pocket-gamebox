@@ -35,16 +35,21 @@ This is the pcb design after routing all components as connected in the schemati
 Bottom Case
 <hr>
 This is the bottom case in which the actual pcb would be placed. Hopefully i got all the dimensions right!
+After soldering your components onto your PCB, place them below the display stage. Screw the display on the display stage then. Make connections from the pcb to the display using jumper wires. 
 <img width="777" height="533" alt="image" src="https://github.com/user-attachments/assets/9951d8b0-dfe8-4c5b-8705-ee9f9751cedc" />
 
 <br><br>
 
 Top Case
 <hr>
-This is the top case to cover the pcb and close the handheld gaming device, with also an opening for the usb-c port and the lcd display
+This is the top case to cover the pcb and close the handheld gaming device, with also an opening for the usb-c port and the lcd display.
+
+Fit the top case on the bottom case ensuring the keys come out properly of the respective gaps. Fix it firmly.
 <img width="811" height="409" alt="image" src="https://github.com/user-attachments/assets/590e606d-4a6a-4422-80ae-65a6151d815b" />
 
 <br><br>
+
+After this, upload the code on the Arduino Pico using the firmware files and the Arduino IDE. After connecting the Pico with your computer using a cable, select the port and board on the IDE and upload the code. Everytime you want to play next, just connect the pico to a power supply with the code running and keep playing the games for days!
 
 Holder
 <hr>
