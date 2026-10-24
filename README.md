@@ -35,7 +35,7 @@ This is the pcb design after routing all components as connected in the schemati
 <h3>Bottom Case</h3>
 <hr>
 This is the bottom case in which the actual pcb would be placed. Hopefully i got all the dimensions right!
-After soldering your components onto your PCB, place them below the display stage. Screw the display on the display stage then. Make connections from the pcb to the display using jumper wires. 
+After soldering your components onto your PCB, place them below the display stage. Screw the display on the display stage then. Make connections from the pcb to the display using jumper wires. <br>
 <img width="777" height="533" alt="image" src="https://github.com/user-attachments/assets/9951d8b0-dfe8-4c5b-8705-ee9f9751cedc" />
 
 <br><br>
