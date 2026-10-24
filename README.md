@@ -1,4 +1,4 @@
-Pocket Gamebox
+<h2>Pocket Gamebox</h2>
 
 A handheld gaming device that fits right into your pocket. For more professional experience, also includes a custom gamebox holder. 
 
@@ -11,28 +11,28 @@ I created this after seeing the Wrong Hack Club challenge and decided to design 
 
 <br><br><br>
 
-Final Assembly 
+<h3>Final Assembly</h3>
 <hr>
 This is the final assembly of the project with the holder, cases and the PCB.
 <img width="647" height="665" alt="2026-10-18_03-02-06" src="https://github.com/user-attachments/assets/60668ba9-dfc9-46cf-b24a-21c585b6aec8" />
 
 <br><br>
 
-Schematics 
+<h3>Schematics</h3>
 <hr>
 This is the schematics I designed for the pcb on kicad, it includes 6 keys, the lcd display and the arduino pico.
 <img width="977" height="450" alt="image" src="https://github.com/user-attachments/assets/64b3718f-038f-4541-9217-664b90ab6380" />
 
 <br><br>
 
-PCB
+<h3>PCB</h3>
 <hr>
 This is the pcb design after routing all components as connected in the schematics. It's kinda tiring but fulfilling.
 <img width="352" height="257" alt="image" src="https://github.com/user-attachments/assets/31e15fcd-7db2-4568-994d-22d8c63f41ee" />
 
 <br><br>
 
-Bottom Case
+<h3>Bottom Case</h3>
 <hr>
 This is the bottom case in which the actual pcb would be placed. Hopefully i got all the dimensions right!
 After soldering your components onto your PCB, place them below the display stage. Screw the display on the display stage then. Make connections from the pcb to the display using jumper wires. 
@@ -40,7 +40,7 @@ After soldering your components onto your PCB, place them below the display stag
 
 <br><br>
 
-Top Case
+<h3>Top Case</h3>
 <hr>
 This is the top case to cover the pcb and close the handheld gaming device, with also an opening for the usb-c port and the lcd display.
 
@@ -49,8 +49,13 @@ Fit the top case on the bottom case ensuring the keys come out properly of the r
 
 <br><br>
 
-After this, upload the code on the Arduino Pico using the firmware files and the Arduino IDE. After connecting the Pico with your computer using a cable, select the port and board on the IDE and upload the code. Everytime you want to play next, just connect the pico to a power supply with the code running and keep playing the games for days!
-
-Holder
+<h3>Holder</h3>
 <hr>
 <img width="657" height="462" alt="image" src="https://github.com/user-attachments/assets/911731c5-83ad-45a1-bc28-e1b32a1b4652" />
+
+<br><br>
+
+<h3>Firmware</h3>
+<hr>
+After this, upload the code on the Arduino Pico using the firmware files and the Arduino IDE. After connecting the Pico with your computer using a cable, select the port and board on the IDE and upload the code. Everytime you want to play next, just connect the pico to a power supply with the code running and keep playing the games for days!
+
