@@ -2107,14 +2107,14 @@
 		(uuid "008071e6-a89f-4bad-8191-8519b6f3b90f")
 	)
 	(label "Right"
-		(at 115.57 53.34 0)
+		(at 93.98 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "11896870-06fd-4c5c-98b0-dc4e72f0bf58")
+		(uuid "0629c1f4-c92c-4ca3-bf76-535b6d4412a2")
 	)
 	(label "SCK"
 		(at 125.73 93.98 0)
@@ -2135,16 +2135,6 @@
 			(justify left bottom)
 		)
 		(uuid "15b4e7a8-4c93-4f8b-a7fe-44bce1bac021")
-	)
-	(label "B"
-		(at 153.67 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23edece8-9f9e-45ef-8960-9cd847cb99f9")
 	)
 	(label "RST"
 		(at 227.33 68.58 0)
@@ -2206,25 +2196,15 @@
 		)
 		(uuid "483eb0cd-1600-47ff-92cb-d318cbc27d92")
 	)
-	(label "A"
-		(at 50.8 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e9ccfcd-c76e-4d08-b5b6-6d80d2fa12e5")
-	)
 	(label "Left"
-		(at 78.74 53.34 0)
+		(at 59.69 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5f72869b-06ca-4fef-bbff-62b660db6e77")
+		(uuid "5f9ee3f6-34f4-4104-9cc8-4873c5e9b247")
 	)
 	(label "VCC"
 		(at 203.2 27.94 90)
@@ -2235,6 +2215,16 @@
 			(justify left bottom)
 		)
 		(uuid "5fb5399a-6f4a-4d1d-ab62-784ca8706d23")
+	)
+	(label "B"
+		(at 129.54 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6719bb1f-59f8-4fa0-9eb6-3d5bcae1f633")
 	)
 	(label "MOSI"
 		(at 227.33 63.5 0)
@@ -2266,6 +2256,26 @@
 		)
 		(uuid "7c6e85a1-7edd-4723-b27e-9ac73708c150")
 	)
+	(label "A"
+		(at 24.13 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b1b6df-7dee-48e5-b4a9-58ab8e64aad4")
+	)
+	(label "Down"
+		(at 77.47 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88e887e1-7712-445b-87f1-04601c522c28")
+	)
 	(label "VCC"
 		(at 125.73 88.9 0)
 		(effects
@@ -2275,16 +2285,6 @@
 			(justify left bottom)
 		)
 		(uuid "8eeb5a13-aeef-478e-8910-a6874f9518f3")
-	)
-	(label "Down"
-		(at 97.79 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "961f64cf-6c09-44e1-8f6b-5f6521c5b552")
 	)
 	(label "Up"
 		(at 165.1 55.88 0)
@@ -2305,6 +2305,16 @@
 			(justify left bottom)
 		)
 		(uuid "9aca9229-ebf8-4caf-9cc4-cfbf44f7fbc3")
+	)
+	(label "Up"
+		(at 76.2 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2c6de76-9bfb-4664-91fb-92220c25a526")
 	)
 	(label "RST"
 		(at 125.73 104.14 0)
@@ -2365,16 +2375,6 @@
 			(justify left bottom)
 		)
 		(uuid "e9521374-1863-49d2-8419-a3b766c3bb68")
-	)
-	(label "Up"
-		(at 96.52 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe02afd5-0638-493e-a24b-ef33b3869660")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -2451,162 +2451,6 @@
 			(project "Pocket_Gaming_Console"
 				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ce09f58-18e7-4e03-8e57-c766625094af")
-		(property "Reference" "#PWR02"
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65d1c634-765b-4746-9e84-08d7f59be40f")
-		)
-		(instances
-			(project "Pocket_Gaming_Console"
-				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0da738b9-1a93-444c-8c54-d82d1395434a")
-		(property "Reference" "#PWR05"
-			(at 129.54 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57c52960-3810-49e5-86ec-97cb0c36050e")
-		)
-		(instances
-			(project "Pocket_Gaming_Console"
-				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 53.34 0)
+		(at 50.8 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2899,9 +2743,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57efb7ea-25fc-4586-98e4-ae37ca8989a0")
-		(property "Reference" "#PWR06"
-			(at 24.13 59.69 0)
+		(uuid "22377ffc-e2d2-4c72-8c7b-0a9584f578ee")
+		(property "Reference" "#PWR015"
+			(at 50.8 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +2756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 58.42 0)
+			(at 50.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2922,7 +2766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 53.34 0)
+			(at 50.8 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 53.34 0)
+			(at 50.8 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +2788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 53.34 0)
+			(at 50.8 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,12 +2799,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5884ee6-2894-4003-a2e8-8a814af1f214")
+			(uuid "012d952e-d815-4890-8f82-d9e614e441e7")
 		)
 		(instances
 			(project "Pocket_Gaming_Console"
 				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR06")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413e4905-ef82-4062-ac5c-43b8c107b564")
+		(property "Reference" "#PWR010"
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec448ea9-e058-4244-baa8-3ebae869150d")
+		)
+		(instances
+			(project "Pocket_Gaming_Console"
+				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67d01b14-f711-42d0-a5d9-22992de458ea")
+		(property "Reference" "#PWR012"
+			(at 153.67 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d976c898-666e-4597-ae85-87dc0354c78c")
+		)
+		(instances
+			(project "Pocket_Gaming_Console"
+				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 53.34 0)
+		(at 96.52 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3055,9 +3055,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d48688f-3e7b-4fb4-8647-9d9080ffd221")
-		(property "Reference" "#PWR03"
-			(at 59.69 59.69 0)
+		(uuid "8e9e5f35-e5ee-4c9e-a763-497b2912a4e4")
+		(property "Reference" "#PWR013"
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,7 +3068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 58.42 0)
+			(at 96.52 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3078,7 +3078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 53.34 0)
+			(at 96.52 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3089,7 +3089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 53.34 0)
+			(at 96.52 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 53.34 0)
+			(at 96.52 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,90 +3111,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8483492b-d5bb-4708-b093-154cdaad62ec")
+			(uuid "e6c29655-60f1-421d-83b0-eab74c7b5854")
 		)
 		(instances
 			(project "Pocket_Gaming_Console"
 				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e66beb9-9fb7-4d31-b5e4-25d583b02f3b")
-		(property "Reference" "#PWR04"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "beb53eda-ca4b-4537-8622-e76691f89850")
-		)
-		(instances
-			(project "Pocket_Gaming_Console"
-				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3522,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 53.34 0)
+		(at 115.57 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3609,9 +3531,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea4f616b-c4ef-45ba-b07d-887f5886e173")
-		(property "Reference" "#PWR01"
-			(at 93.98 59.69 0)
+		(uuid "f058ac9a-9f89-4e1a-9ae1-23c569c0a526")
+		(property "Reference" "#PWR011"
+			(at 115.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 58.42 0)
+			(at 115.57 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3632,7 +3554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 53.34 0)
+			(at 115.57 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 53.34 0)
+			(at 115.57 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 53.34 0)
+			(at 115.57 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,12 +3587,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5ab1e4b-5880-48e4-b1f1-39feb0ebf73b")
+			(uuid "aeb9a6cd-029e-4d1c-a393-8663dd671811")
 		)
 		(instances
 			(project "Pocket_Gaming_Console"
 				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
-					(reference "#PWR01")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b1c74e-f2f5-4656-8843-5bcccd19f14c")
+		(property "Reference" "#PWR014"
+			(at 78.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cd5b698-7194-4a83-b8d9-0db47ec87248")
+		)
+		(instances
+			(project "Pocket_Gaming_Console"
+				(path "/ef2cfef6-0631-43d5-8055-14f41a3a56fd"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
