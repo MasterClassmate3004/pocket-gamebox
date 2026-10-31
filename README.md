@@ -21,14 +21,16 @@ This is the final assembly of the project with the holder, cases and the PCB.
 <h3>Schematics</h3>
 <hr>
 This is the schematics I designed for the pcb on kicad, it includes 6 keys, the lcd display and the arduino pico.
-<img width="977" height="450" alt="image" src="https://github.com/user-attachments/assets/64b3718f-038f-4541-9217-664b90ab6380" />
+<img width="470" height="217" alt="2026-10-31_15-13-42" src="https://github.com/user-attachments/assets/fbae25c7-b0d4-4825-aa8e-a60e047e8cc1" />
+
 
 <br><br>
 
 <h3>PCB</h3>
 <hr>
 This is the pcb design after routing all components as connected in the schematics. It's kinda tiring but fulfilling.
-<img width="352" height="257" alt="image" src="https://github.com/user-attachments/assets/31e15fcd-7db2-4568-994d-22d8c63f41ee" />
+<img width="852" height="630" alt="2026-10-31_15-13-52" src="https://github.com/user-attachments/assets/7a31b5e1-271c-4451-938a-d9cc8d758e38" />
+
 
 <br><br>
 
